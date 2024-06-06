@@ -13,7 +13,7 @@ darkscout is a simple, nimble subdomain enumeration tool written in Rust languag
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GNU License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url]
 
 Sources:
 - Alienvault
@@ -124,4 +124,4 @@ This project exists thanks to all the people who contribute. [See the contributo
 [issues-shield]: https://img.shields.io/github/issues/DarkSuite/DarkScout.svg?style=for-the-badge
 [issues-url]: https://github.com/DarkSuite/DarkScout/issues
 [license-shield]: https://img.shields.io/github/license/DarkSuite/DarkScout.svg?style=for-the-badge
-[license-url]: https://github.com/DarkSuite/DarkScout/blob/master/LICENSE.txt
+[license-url]: https://github.com/DarkSuite/DarkScout/blob/master/LICENSE
