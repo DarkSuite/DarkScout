@@ -1,5 +1,8 @@
 # DarkScout
-darkscout is a simple, nimble subdomain enumeration tool written in Rust language. It is designed to help bug bounty hunters, security professionals and penetration testers discover subdomains of a given target domain.
+
+[![Forks][forks-shield]][forks-url][![Stargazers][stars-shield]][stars-url][![Issues][issues-shield]][issues-url]
+
+DarkScout is a simple, nimble subdomain enumeration tool written in Rust language. It is designed to help bug bounty hunters, security professionals and penetration testers discover subdomains of a given target domain.
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -9,13 +12,8 @@ darkscout is a simple, nimble subdomain enumeration tool written in Rust languag
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
-Sources:
+OSINT sources:
 - Alienvault
 - Anubis
 - Crtsh
@@ -108,10 +106,6 @@ If you have a problem or a feature request, open an [issue](https://github.com/D
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/DarkSuite/DarkScout.svg)](https://starchart.cc/DarkSuite/DarkScout)
-
-<!-- CONTRIBUTORS -->
-## Contributors
-This project exists thanks to all the people who contribute. [See the contributors list](https://github.com/DarkSuite/DarkScout/graphs/contributors).
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
