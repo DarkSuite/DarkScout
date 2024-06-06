@@ -6,7 +6,6 @@ mod alienvault;
 mod anubis;
 mod crtsh;
 mod hackertarget;
-mod omnisint;
 mod threatminer;
 
 mod structs;
@@ -77,8 +76,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         alienvault, 
         anubis, 
         crtsh, 
-        hackertarget, 
-        omnisint, 
+        hackertarget,  
         threatminer
 
         ) = futures::join!(
@@ -87,7 +85,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         anubis::get_anubis_subdomains(&cleaned_target),
         crtsh::get_crt_domains(&cleaned_target),
         hackertarget::get_hackertarget_domains(&cleaned_target),
-        omnisint::get_omnisint_subdomains(&cleaned_target),
         threatminer::get_threatminer_subdomains(&cleaned_target),
     );
 
@@ -99,7 +96,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .chain(anubis.iter().flatten())
         .chain(crtsh.iter().flatten())
         .chain(hackertarget.iter().flatten())
-        .chain(omnisint.iter().flatten())
         .chain(threatminer.iter().flatten())
         .unique_by(|s| &s.url)
         .collect();
