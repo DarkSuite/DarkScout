@@ -20,7 +20,6 @@ Sources:
 - Anubis
 - Crtsh
 - Hackertarget
-- Omnisint (FYI - This site is down often.)
 - Threatminer
 
 <!-- ROADMAP -->
